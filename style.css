@@ -195,7 +195,7 @@ header{
     }
     &:nth-child(3){
       img{
-        width:60% ;
+        width:50% ;
       }
     }
     &:nth-child(even){
