@@ -321,13 +321,13 @@ header{
 }
 
 .system .timeline .timeline-item .timeline-item-inner .icon {
-  height: 9px;
-  width: 9px;
-  position: absolute;
+  /* height: 0.1px;
+  width: 0.1px; */
+  /* position: absolute;
   top: 33px;
-  border: 1px solid #ddd;
+  border: 0.1px solid #ddd;
   border-radius: 50%;
-  background-color: #ddd;
+  background-color: #ddd; */
 }
 
 .system .timeline .timeline-item .timeline-item-inner span {
