@@ -1,0 +1,85 @@
+ /* system section */
+
+
+ .about {
+  padding: 80px 0 80px;
+  min-height: 100vh;
+}
+
+.about .row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex: 0 0 50%;
+  padding: 15px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.about .row:nth-child(2) img,
+.about .row:nth-child(3) img {
+  width: 70%;
+}
+
+.about .row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.about .col50 {
+  position: relative;
+  width: 48%;
+}
+
+.about .col50 .imgBx {
+  position: relative;
+  height: 100%;
+}
+
+.about .col50 img {
+  position: absolute;
+  height: 100%;
+}
+
+.about .col50 .titleText {
+  color: #000;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.about .col50 .titleText span {
+  color: rgb(172, 172, 172);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* system section */
+.system {
+  padding: 80px 0 80px;
+  min-width: 100vh;
+  background: url(./image/pixabel.jpg);
+  background-size: cover;
+}
+
+.system .container .title h2 {
+  color: rgb(37, 37, 37);
+  font-weight: 400;
+}
+
+.system .container .title h2 span {
+  color: #000;
+}
+.system .container .title p{
+  color: 700;
+  font-weight: 500;
+}
+
+.title{
+  /* color: #700; */
+  font-weight: 600;
+  width: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column ;
+
+}
