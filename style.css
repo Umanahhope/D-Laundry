@@ -355,9 +355,30 @@ header{
   margin: 15px 0 0;
   font-weight: bolder;
 }
-.imgBx{
+
+
+/* service section */
+
+.boxcard .imgBx{
   width: 350px;
 }
+.service{
+  padding:800px;
+  min-height:100vh;
+
+      .container{
+
+  .title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+  }
+}
+
+
 
 
 
