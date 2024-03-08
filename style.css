@@ -362,6 +362,7 @@ header{
 .boxcard .imgBx{
   width: 350px;
 }
+
 .service{
   padding:80 0 80px;
   min-height:100vh;
@@ -433,6 +434,27 @@ header{
 
               }
 
+            }
+            .text{
+              padding: 15px 0 5px;
+              display: flex;
+              overflow: hidden;
+
+              h3{
+                font-weight: 400;
+                color: #111; 
+
+              }
+
+              label{
+                #order{
+                  position: relative;
+                  cursor: pointer;
+                  z-index: 1px;
+
+
+                }
+              }
             }
 
           }
