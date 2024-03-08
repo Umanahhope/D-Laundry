@@ -447,10 +447,26 @@ header{
               }
 
               label{
+
                 #order{
                   position: relative;
                   cursor: pointer;
                   z-index: 1px;
+                  margin-left: 120px;
+                  width: 40px;
+                  color: #333;
+                  font-size: 14px;
+                  letter-spacing: 1px;
+                  font-weight: 500;
+                  border-radius: 15px;
+                  background-color: #f5f5f5;
+                  padding: 4px 25px;
+                  box-shadow: 2px 2px 3px #bebebe
+                  -2px -2px 3px #fff;
+                  transition:-5s ;
+
+
+
 
 
                 }
