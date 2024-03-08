@@ -473,17 +473,20 @@ header{
               }
             }
 
-           #chech, #check2, #check3{
+           #check, #check2, #check3{
             display: none;
 
             &:checked{
+
               ~{
-                .container{
+                
+                .contentBx{
+
                   .content{
                     
                   
                   transform: translateX(0px);
-                  transition-delay:.5s ;
+              
 
                 }
 
@@ -521,7 +524,22 @@ header{
         overflow: hidden;
 
         .content{
-          
+          position: relative;
+          z-index: 3;
+          transition: .5s;
+          transform: translateX(-400px);
+          user-select: none;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-weight: 600;
+          padding: ;
+
+
+
+
         }
 
       }
