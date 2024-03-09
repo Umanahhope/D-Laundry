@@ -529,7 +529,10 @@ header{
               height: 100%;
               background-color: #fff;
               transform: scale(0) ;
-              transition: transform;
+              transition: transform .5s ease-in-out;
+              transform-origin: left;
+              overflow: hidden;
+              z-index: 2;
 
 
             }
