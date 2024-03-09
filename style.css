@@ -395,7 +395,7 @@ header{
         }
       }
       .row{
-        background: #fff;
+        background: #f5f5f5;
         position:relative;
         display: flex;
         flex-direction: row;
