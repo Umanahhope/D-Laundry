@@ -508,7 +508,11 @@ header{
             }
            }  */
 
+
+
 /* where the problem stats */
+
+
 
 
            /* .contentBx{
@@ -790,7 +794,74 @@ header{
 
 /* new start of service */
 
+.service{
+  padding:80px 0 80px;
+  min-height:100vh;
 
+  .container{
+
+    .title{
+      width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    }
+    
+    .menu{
+      justify-content: center;
+      align-items: center;
+      padding: 80px 0 0;
+      position: relative;
+      display: grid;
+      max-width:100%;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr) );
+      
+      &:hover{
+        .row{
+          .card{
+               opacity: 0.2;
+        }
+
+        }
+      }
+
+      .row{
+        background: #fff;
+        position:relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+
+        .card{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          position: relative;
+          background: #f5f5f5;
+          margin: 20px;
+          box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+          transition: .5s;
+
+          &:hover{
+            opacity: 1;
+          }
+
+
+        }
+
+      }
+
+
+    }
+  }
+  
+
+
+}
 
 
 
