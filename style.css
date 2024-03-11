@@ -990,6 +990,14 @@ header{
                   background-color: #fff;
                   transition: .5s;
 
+                  h1{
+                    left: 0;
+                    width: 100%;
+                    font-weight: 400;
+
+
+                  }
+
                 }
 
               }
