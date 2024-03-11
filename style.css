@@ -1095,7 +1095,15 @@ header{
                   }
 
               }
-              
+                
+
+              .end{
+                width: 105%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+              }
 
 
 
