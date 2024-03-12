@@ -913,7 +913,7 @@ header{
               }
 
             }
-            #check1, #check2, #check3{
+            #check, #check, #check{
               display: none ;
 
               &:checked{
@@ -943,7 +943,7 @@ header{
               }
              } 
 
-              .contentBox{
+               .contentBox{
               display:flex;
               justify-content: center;
               position: absolute;
@@ -1191,3 +1191,11 @@ header{
 
 
 
+
+
+
+
+
+
+
+  
