@@ -757,9 +757,20 @@ header{
     }
   }
   
-
-
 } 
+
+.testimonials{
+  padding: 80px 0 80px;
+  min-height: 100vh;
+  background-image:url(./image/basket1.jpg) ;
+  background-size: cover;
+
+  .content{
+    
+  }
+}
+
+
 
 
 
