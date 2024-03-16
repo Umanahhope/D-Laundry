@@ -1014,6 +1014,23 @@ header{
 }
 
 
+/* cp */
+
+.cp{
+  padding: 8px 40px;
+  border-top: 1 solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-content: center;
+
+
+  p{
+    color:rgb(172, 172, 172);
+    font-weight: 500;
+    
+
+  }
+}
+
 
 
 
