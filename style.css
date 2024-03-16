@@ -891,7 +891,7 @@ header{
     margin: 50px 0 0;
     display: flex;
     flex: 0 0 50%;
-    padding: 15px;
+    padding: 55px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex;
@@ -902,7 +902,7 @@ header{
       padding: 50px;
       background: #f5f5f5;
       box-shadow:#bebebe;
-      width: 50px;
+      width: 100px;
       /* margin: 5px 5px; */
 
       h3{
@@ -914,7 +914,7 @@ header{
 
       .inputBox{
         position: relative;
-        width: 100px;
+        width: 180px;
         margin-bottom: 20px;
 
         .inputBox, textarea{
@@ -956,11 +956,20 @@ header{
 
     .map{
       position: relative;
-      padding: 25px;
+      padding: 15px;
       height: 400;
       box-shadow: #bebebe;
       background: #ddd;
       border-radius:10px ;
+
+      iframe{
+        width: 350px;
+        height: 350px;
+        box-shadow: #bebebe;
+        border: 0;
+        border-radius: 5px ;
+
+      }
 
     }
 
