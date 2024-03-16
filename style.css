@@ -965,7 +965,7 @@ header{
       border-radius:10px ;
 
       iframe{
-        width: 350px;
+        width: 100%;
         height: 350px;
         box-shadow: #bebebe;
         border: 0;
