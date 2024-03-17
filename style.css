@@ -881,10 +881,12 @@ header{
 
 
 /* contact section */
+
 .contact{
   padding: 80px  0 80px;
   min-height: 100vh;
 
+ 
 
    .box{
 
@@ -948,10 +950,9 @@ header{
           font-weight: 500;
           border: none;
           cursor: pointer;
-
           padding: 10px 30px;
-    
-          margin-top: 20px;
+
+         
     
     
     
@@ -1023,7 +1024,7 @@ header{
 
   } 
 
-}
+
 
 
 /* cp */
