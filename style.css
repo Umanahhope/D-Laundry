@@ -1051,7 +1051,12 @@ header{
 
 /* For laptop  */
 
-@media(max-width)
+@media(max-width:991px){
+  header, header.sticky{
+    padding: 10px 30px;
+
+  }
+}
 
 /* for tablet */
 
