@@ -953,7 +953,8 @@ header{
           font-weight: 500;
           border: none;
           cursor: pointer;
-          padding: 10px 30px;
+          /* padding: 10px 30px; */
+          margin: 10px 30px ;
           border-radius: 5px;
 }
         
