@@ -1121,10 +1121,10 @@ header{
       transform: translateX(100px);
       transition: all .5s ease;
 
-      /* &.active{
+       &.active{
         transform: translateX(0px);
         transform-origin: left;
-      } */
+      } 
 
        li{
 
