@@ -1066,6 +1066,10 @@ header{
             font-size: 20px;
             font-weight: 500;
             transition: all .5 ease;
+
+            &:hover{
+              color:rgb(172, 172, 172);
+            }
           }
         }
       }
