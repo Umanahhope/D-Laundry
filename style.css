@@ -1065,6 +1065,7 @@ header{
             color: #000;
             font-size: 20px;
             font-weight: 500;
+            transition: all .5 ease;
           }
         }
       }
