@@ -1085,6 +1085,7 @@ header{
       height: 40px;
       background: url() ;
       cursor: pointer;
+      filter: invert(1);
 
 
       &.active{
@@ -1101,7 +1102,7 @@ header{
   header.sticky{
 
     .menuToggle{
-      background: red;
+      filter: invert(0);
     }
 
   }
