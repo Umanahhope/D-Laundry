@@ -1055,6 +1055,21 @@ header{
   header, header.sticky{
     padding: 10px 30px;
 
+    .nav{
+
+      &.active{
+
+        li{
+
+          a{
+            color: #000;
+            font-size: 20px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
   }
 }
 
