@@ -7,5 +7,5 @@ window.addEventListener("scroll", function(){
 //  Toggle Menu
 
 function toggleMenu(){
- const MenuBar = document.querySelector
+ const MenuBar = document.querySelector(".menuToggle");
 }
