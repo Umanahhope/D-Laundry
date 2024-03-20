@@ -1085,6 +1085,16 @@ header{
       height: 40px;
       background: url() ;
       cursor: pointer;
+
+
+      &.active{
+        background: url() ;
+        background-size:40px ;
+        /* filter:inset: (0); */
+
+        z-index: 100000;
+
+      }
     }
   }
 
