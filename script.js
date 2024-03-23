@@ -8,7 +8,7 @@ window.addEventListener("scroll", function(){
 
 function toggleMenu(){
  const MenuBar = document.querySelector(".menuToggle");
- const nav = document(".nav");
+ const nav = document .querySelector (".nav");
  MenuBar.classList.toggle("active");
  nav.classList.toggle("active");
 
