@@ -1156,6 +1156,26 @@ header{
 
 /* for tablet */
 
+@media(max-width: 768px){
+  .home .content h2{
+    font-size: 70px;
+    font-weight: 400;
+  }
+  .about{
+    padding: 80px 0 80px 0;
+
+    .raw{
+      padding: 20px 15px;
+      margin: 0;
+      text-align: center;
+
+      .col50{
+        margin: 20px 0 20px 0;
+      }
+    }
+  }
+}
+
 /* for Mobile */
 
 
