@@ -1062,8 +1062,13 @@ header{
 
 
 /* For laptop  */
+<<<<<<< HEAD
   
 /* @media(max-width:991px){
+=======
+/* 
+@media(max-width:991px){
+>>>>>>> 32d183642d0d79f509b9b3daa9564e23ca2d5fea
   header, header.sticky{
     padding: 10px 30px;
 
@@ -1164,6 +1169,7 @@ header{
     padding: 80px 15px;
   }
 
+<<<<<<< HEAD
 }  */
 
 /* for laptop */
@@ -1232,6 +1238,9 @@ header{
     padding: 80px 5%;
   }
 }
+=======
+} */
+>>>>>>> 32d183642d0d79f509b9b3daa9564e23ca2d5fea
 
 
 
